@@ -86,8 +86,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 );
               }),
               CalculatorButton(
-                text: '0',
-                onPressed: () => _onButtonPressed('0'),
+                text: '%',
+                onPressed: () => _onButtonPressed('%'),
               ),
               CalculatorButton(
                 text: '+',
